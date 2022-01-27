@@ -18,7 +18,7 @@ jobs:
         uses: birc-gsa/gsa-test/test@v1
         id:   gsa-testing
         with:
-          gsa-options: -v test .gsa/gsa-test.yaml -o gsa-results.txt
+          gsa-options: -v test .gsa/gsa-test.yml -o gsa-results.txt
 
       - name: Archiving debug info
         if: failure()
