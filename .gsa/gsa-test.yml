@@ -6,9 +6,9 @@ tools:
   GSA-KMP:
     map: "gsa search {genome} {reads} -o {outfile} exact kmp"
   naive:
-    map: "{root}/naive {genome} {reads} > {outfile}"
+    map: "{root}/../naive {genome} {reads} > {outfile}"
   lin:
-    map: "{root}/lin {genome} {reads} > {outfile}"
+    map: "{root}/../lin {genome} {reads} > {outfile}"
   
 reference-tool: GSA-Naive
 
